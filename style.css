@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(43, 43, 43);
+    color: rgb(243, 237, 237);
+}
+
+
+.header {
+    display: flex;
+    height: 80px;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    padding: 16px;
+}
+
+
+.logo {
+    display: flex;
+    flex: 1;   
+}
+
+ul {
+    display: flex;    
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
