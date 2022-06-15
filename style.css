@@ -9,6 +9,7 @@ body {
 }
 
 .quadrant1 {
+    display: flex;
     background-color: rgb(37, 37, 62);
 }
 
@@ -78,6 +79,25 @@ a {
     height: 150px;
 }
 
+.quadrant2 {
+    display: flex;
+    background-color: rgba(24, 70, 46, 0.654);
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    border: 3px solid green;
+    padding: 40px 0;
+    flex: 0 0 100px;
+   
+}
 
 .footer {
     display: flex;    
