@@ -90,8 +90,15 @@ a {
     background-color: rgba(24, 70, 46, 0.654);
 }
 
-.info {
+.infoheader {
     display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgba(24, 70, 46, 0.654);
+}
+
+.info {
+    display: flex;    
     flex: 1;
     gap: 16px;
     justify-content: space-evenly;
@@ -100,9 +107,22 @@ a {
 
 .card {
     display: flex;
+    justify-content: center;
     align-items: center;
     border: 3px solid green;
     height: 150px;   
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    display: flex;      
+    flex-shrink: 0;    
+    font-size: 20px;
+    width: 280px;
 }
 
 
