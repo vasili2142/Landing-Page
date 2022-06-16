@@ -86,7 +86,7 @@ a {
 
 .quadrant2 {
     display: flex;
-    flex: 1;
+    flex: 1;    
     background-color: rgba(24, 70, 46, 0.654);
 }
 
@@ -123,6 +123,7 @@ figcaption {
     flex-shrink: 0;    
     font-size: 20px;
     width: 280px;
+    padding-left: 80px;
 }
 
 
@@ -138,7 +139,6 @@ figcaption {
 
 blockquote {
     display: flex;
-
     padding: 16px;
     flex:0 0 100px
 }
